@@ -5,7 +5,7 @@ using System.Net.Http.Headers;
 
 namespace pinecone;
 
-public class PinconeProvider : IPineconeProvider
+public class PineconeProvider : IPineconeProvider
 {
     private readonly HttpClient _httpClient;
 
@@ -13,7 +13,7 @@ public class PinconeProvider : IPineconeProvider
     public string Environment { get; set; }
     public string ProjectName { get; set; }
 
-    public PinconeProvider()
+    public PineconeProvider()
     {
         _httpClient = new HttpClient();
 

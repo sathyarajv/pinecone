@@ -4,6 +4,9 @@ namespace pinecone
 {
     public interface IPineconeProvider
     {
+        public string ApiKey { get; set; }
+        public string Environment { get; set; }
+        public string ProjectName { get; set; }
         Task<string> CreateIndex(CreateRequest createRequest, CancellationToken cancellationToken = default);
         Task<string[]> GetIndex();
         Task<string> GetProjectName(CancellationToken cancellationToken = default);
