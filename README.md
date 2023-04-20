@@ -38,11 +38,13 @@ using pinecone;
 ```
 
  **Create a Pinecone client:**
-Replace <YOUR_API_KEY> with your actual Pinecone API key.
+Replace <YOUR_API_KEY> with your actual Pinecone API key and <Environment> with the environment of created index.
 
 ```csharp
-var pineconeClient = new PineconeProvider("<YOUR_API_KEY>",);
+var pineconeClient = new PineconeProvider("<YOUR_API_KEY>","<Environment>");
 ```
+
+
 
 ## Documentation
 For more detailed information on the Pinecone .NET SDK, please visit the official documentation.

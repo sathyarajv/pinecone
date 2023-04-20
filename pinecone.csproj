@@ -9,7 +9,7 @@
 		<PackageProjectUrl>https://www.pinecone.io/</PackageProjectUrl>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<Authors>Sathyarajv</Authors>
-		<Version>1.0.1</Version>
+		<Version>1.0.2</Version>
 		<Product>Pinecone database sdk</Product>
 		<Description>Dotnet SDK for Pinecone</Description>
 		<RepositoryUrl>https://github.com/sathyarajv/pinecone</RepositoryUrl>
