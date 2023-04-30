@@ -1,4 +1,6 @@
 # Pinecone .NET SDK
+[![Pinecone_sdk](https://img.shields.io/nuget/v/pinecone_sdk?style=for-the-badge)](https://www.nuget.org/packages/pinecone_sdk/)
+
 
 ## Description
 
